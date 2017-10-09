@@ -4,6 +4,7 @@
 }
 
 body{
+	background-color: #9dc5e8;
 	background-image: url(../images/background7.png);
 	-webkit-background-size:cover;
 	-o-background-size:cover;

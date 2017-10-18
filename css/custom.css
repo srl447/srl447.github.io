@@ -1,6 +1,6 @@
 @font-face{
 	font-family: sam;
-	src: url(../assets/Myfrida.otf);
+	src: url(../assets/plumpfull.ttf);
 }
 
 body{
@@ -92,6 +92,12 @@ a:active{
 	right: 20px;
 }
 
+.icon3{
+	float: left;
+	position: relative;
+	right: 40px;
+	top: -2px;
+}
 .contact{
 	position: relative;
 	right: 10px;

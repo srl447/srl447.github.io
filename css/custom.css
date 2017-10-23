@@ -79,7 +79,7 @@ a:active{
 .social{
 	position: fixed;
 	left: 15px;
-	bottom: 20px;
+	bottom: 10px;
 }
 
 .icon{
@@ -102,4 +102,8 @@ a:active{
 	position: relative;
 	right: 10px;
 }
-/*why*/
+
+.social img:hover{
+	position: relative;
+	bottom: 10px;
+}

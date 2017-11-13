@@ -3,6 +3,11 @@
 	src: url(../assets/Plumpfull.ttf);
 }
 
+@font-face{
+	font-family: navifont;
+	src: url(../assets/alike.ttf);
+}
+
 @keyframes Social{
 	from{bottom:0;}
 	to{bottom:10;}
@@ -29,6 +34,7 @@ body{
 }
 nav{
 	font-size: 200%;
+	font-family: navifont;
 	position:fixed;
 	right: 0px;
 	top: 20px;

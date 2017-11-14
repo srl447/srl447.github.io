@@ -113,7 +113,7 @@ a:active{
 }
 
 .social img{
-	flex-grow: 1;
+	width: 55%;
 }
 
 .social img:hover{
@@ -130,12 +130,12 @@ a:active{
 .icon2{
 	float: left;
 	position: relative;
-	right: 20px;
+	right: 40px;
 }
 
 .icon3{
 	float: left;
 	position: relative;
-	right: 40px;
+	right: 80px;
 	top: -2px;
 }

@@ -45,7 +45,10 @@ nav ul{
 	padding: 0px;
 	margin: 0px;
 	flex-direction: column;
-	background: lightgray;
+	background: white;
+	border-bottom: solid 3px lightgrey;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
 
 
 

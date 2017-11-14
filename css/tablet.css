@@ -15,7 +15,7 @@
 
 body{
 	background-color: #9dc5e8;
-	background-image: url(../images/background7.png);
+	background-image: url(../images/tabletBG.png);
 	-webkit-background-size:cover;
 	-o-background-size:cover;
 	-moz-background-size:cover;
@@ -86,7 +86,7 @@ a:active{
 	display: flex;
 	align-items: center baseline;
 	position: fixed;
-	top: 20%;
+	top: 30%;
 	text-align: center;
 	/*padding-top: 150px;*/
 }
@@ -94,11 +94,11 @@ a:active{
 .logo img{
 	-webkit-transition: width .3s; /* Safari */
     transition: width .3s;
-    width: 30%;
+    width: 55%
 }
 
 .logo img:hover{
-	width:31%;
+	width:56%;
 
 }
 

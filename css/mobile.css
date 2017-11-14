@@ -97,11 +97,11 @@ a:active{
 .logo img{
 	-webkit-transition: width .3s;
     transition: width .3s;
-    width: 72%;
+    width: 68%%;
 }
 
 .logo img:hover{
-	width:73%;
+	width:69%;
 }
 
 .social{

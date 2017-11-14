@@ -1,11 +1,18 @@
 @font-face{
-	font-family: navifont;
-	src: url(../assets/alike.ttf);
-}
-@font-face{
 	font-family: sam;
 	src: url(../assets/Plumpfull.ttf);
 }
+
+@font-face{
+	font-family: navifont;
+	src: url(../assets/alike.ttf);
+}
+
+@keyframes Social{
+	from{bottom:0;}
+	to{bottom:10;}
+}
+
 body{
 	background-color: #9dc5e8;
 	background-image: url(../images/mobileBG.png);
@@ -55,26 +62,11 @@ nav ul li{
 	flex-grow: 0;
 
 }
-
-h1{
+h1 {
 	font-family: sam;
-	font-size: 26pt;
-	color: #f1744b;
-	position: relative;
-	z-index: 1;
-}
-
-p{
-	font-family: navifont;
-	color: #63acf1;
-	font-size: 15pt;
-	padding-right: 25px;
-	word-wrap: break-word;
-	clear: both;
-}
-img{
-	float: right;
-	margin-right: 50px;
+	color: white;
+	font-size: 20pt;
+	margin-top: 37%;
 }
 
 a:link{
@@ -93,21 +85,57 @@ a:active{
 	text-decoration: underline;
 }
 
-#mainBody{
-	background: white;
-	margin: 5%;
-	margin-top: 30%;
-	min-height: 130vh;
-}
 
-.text{
-	position: relative;
-	top: 20px;
-	left: 20px;
-}
-
-.image1{
-	width: 80%;
-	padding: 1px;
+.logo{
+	display: flex;
+	align-items: center baseline;
+	position: fixed;
+	top: 38%;
 	text-align: center;
+}
+
+.logo img{
+	-webkit-transition: width .3s;
+    transition: width .3s;
+    width: 80%;
+}
+
+.logo img:hover{
+	width:81%;
+}
+
+.social{
+	display: flex;
+	justify-content: flex-center;
+	position: fixed;
+	left: 15px;
+	bottom: 10px;
+}
+
+.social img{
+	flex-grow: 1;
+}
+
+.social img:hover{
+	position: relative;
+	bottom: 10px;
+	animation-name: Social;
+	animation-duration: .2s;
+}
+
+.icon{
+	float: left
+}
+
+.icon2{
+	float: left;
+	position: relative;
+	right: 20px;
+}
+
+.icon3{
+	float: left;
+	position: relative;
+	right: 40px;
+	top: -2px;
 }

@@ -97,7 +97,7 @@ a:active{
 .logo img{
 	-webkit-transition: width .3s;
     transition: width .3s;
-    width: 68%%;
+    width: 68%;
 }
 
 .logo img:hover{

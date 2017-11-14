@@ -1,23 +1,11 @@
 @font-face{
-	font-family: sam;
-	src: url(../assets/Plumpfull.ttf);
-}
-
-@font-face{
 	font-family: navifont;
 	src: url(../assets/alike.ttf);
 }
-
-@keyframes Social{
-	from{bottom:0;}
-	to{bottom:10;}
+@font-face{
+	font-family: sam;
+	src: url(../assets/Plumpfull.ttf);
 }
-
-@keyframes OriginalSocial{
-	from{bottom:10;}
-	to{bottom:0;}
-}
-
 body{
 	background-color: #9dc5e8;
 	background-image: url(../images/background7.png);
@@ -64,10 +52,23 @@ nav ul li{
 	padding-right: 10px;
 
 }
-h1 {
+
+h1{
 	font-family: sam;
-   color: white;
-   font-size: 40pt;
+	font-size: 26pt;
+	color: #f1744b;
+}
+
+p{
+	font-family: navifont;
+	color: #63acf1;
+	font-size: 15pt;
+	padding-right: 25px;
+	word-wrap: break-word;
+}
+img{
+	float: right;
+	margin-right: 50px;
 }
 
 a:link{
@@ -86,58 +87,20 @@ a:active{
 	text-decoration: underline;
 }
 
-
-.logo{
-	display: flex;
-	align-items: center baseline;
-	position: fixed;
-	top: 20%;
-	text-align: center;
-	/*padding-top: 150px;*/
+#mainBody{
+	background: white;
+	margin: 5%;
+	margin-top: 6%;
+	min-height: 80vh;
 }
 
-.logo img{
-	-webkit-transition: width .3s; /* Safari */
-    transition: width .3s;
-}
-
-.logo img:hover{
-	width:31%;
-
-}
-
-.social{
-	display: flex;
-	justify-content: flex-center;
-	position: fixed;
-	left: 15px;
-	bottom: 10px;
-}
-
-.social img{
-	flex-grow: 1;
-}
-
-.social img:hover{
+.text{
 	position: relative;
-	bottom: 10px;
-	animation-name: Social;
-	animation-duration: .2s;
+	top: 20px;
+	left: 20px;
 }
 
-.icon{
-	float: left
-}
-
-.icon2{
-	float: left;
-	position: relative;
-	right: 20px;
-}
-
-.icon3{
-	float: left;
-	position: relative;
-	right: 40px;
-	top: -2px;
+.image1{
+	width: 30%;
+	padding: 3px;
 }

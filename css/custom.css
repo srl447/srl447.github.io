@@ -1,68 +1,32 @@
 @font-face{
-	font-family: sam;
-	src: url(../assets/Plumpfull.ttf);
+	font-family: futura;
+	src:url(../assets/Renner.ttf);
 }
-
-@font-face{
-	font-family: navifont;
-	src: url(../assets/alike.ttf);
-}
-
-@keyframes Social{
-	from{bottom:0;}
-	to{bottom:10;}
-}
-
 body{
-	background-color: #9dc5e8;
-	background-image: url(../images/background7.png);
-	-webkit-background-size:cover;
-	-o-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	background-repeat: no-repeat;
-	-webkit-background-repeat:no-repeat;
-	-o-background-repeat:no-repeat;
-	-moz-background-repeat:no-repeat;
-	background-position: left;
-	background-position: top;
+	background: lightpink;
+	font-family: futura;
+}
+
+header{
+	width: 17%;
+	background: white;
+	position: fixed;
+	right: 20px;
+	top: 20px;
 }
 nav{
-	font-size: 200%;
-	font-family: navifont;
-	position:fixed;
-	right: 0px;
-	top: 20px;
-	width: 530px;
-	height: 50px;
-	background: lightgray;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	text-align: center;
 
-
-	-webkit-box-shadow: 5px 17px 40px 2px rgba(97,17,97,0.58);
-	-moz-box-shadow: 5px 17px 40px 2px rgba(97,17,97,0.58);
-	box-shadow: 5px 17px 40px 2px rgba(97,17,97,0.58);
 }
 nav ul{
 	list-style: none;
-	padding: 0px;
-	margin: 0px;
-	flex-grow: 0;
+	text-align: center;
+	padding: 0;
+	justify-content: space-between;
 }
-
 nav ul li{
 	text-align: center;
 	display: inline-flex;
-	padding-left: 10px;
-	padding-right: 10px;
-
-}
-h1 {
-	font-family: sam;
-   color: white;
-   font-size: 40pt;
 }
 
 a:link{
@@ -71,7 +35,7 @@ a:link{
 
 }
 a:visited{
-	color: #f1744b;
+	color: hotpink;
 	text-decoration: none;
 }
 a:hover{
@@ -81,59 +45,87 @@ a:active{
 	text-decoration: underline;
 }
 
+#kermit {
+	position: relative;
+}
 
-.logo{
+#kermit img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+}
+#about{
+	background: white;
+	position: relative;
+	width:75%;
+	height: 25%;
+	display: flex;	
+	margin-left: 30px;
+	/*align-items: flex-end;*/
+	justify-content: flex-end;
+	flex-direction: row;
+	margin-bottom: none;
+}
+#about img{
+	width: 100%;
+	align-self: flex-start;
+}
+#about #a1{
+	/*background: white;*/
+	width:75%;
+	padding-bottom: none;
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+#about #a2{
 	display: flex;
-	align-items: center baseline;
-	position: fixed;
-	top: 20%;
-	text-align: center;
-	/*padding-top: 150px;*/
+	width: 50%;
+	margin-bottom: 0px;
 }
 
-.logo img{
-	-webkit-transition: width .3s; /* Safari */
-    transition: width .3s;
-    width: 30%;
-}
-
-.logo img:hover{
-	width:31%;
-
-}
-
-.social{
+#games{
+	position: relative;
+	padding-left: 30px;
+	padding-top:10px;
+	width:75%;
 	display: flex;
-	justify-content: flex-center;
-	position: fixed;
-	left: 15px;
-	bottom: 10px;
+	flex-wrap: wrap;
+}
+#games a{
+	width: calc(50% - 15px);
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+#games img{
+	width:100%;
 }
 
-.social img{
-	flex-grow: 1;
+#contact{
+	padding-left: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 30%;
 }
 
-.social img:hover{
-	position: relative;
-	bottom: 10px;
-	animation-name: Social;
-	animation-duration: .2s;
+#contact img {
+	width: 60px;
+	height: 60px;
+	padding-right: 20px;
+	filter: invert(52%) sepia(100%) hue-rotate(90deg);
 }
 
-.icon{
-	float: left
+.TopUI{
+	font-size: 20px;
 }
-
-.icon2{
-	float: left;
-	position: relative;
-	right: 20px;
+.topIMG{
+	opacity: 1;
+	transition: 0.3s;
 }
-
-.icon3{
-	float: left;
-	position: relative;
-	right: 40px;
-	top: -2px;
+.topIMG:hover{
+	transition: 0.3s;
+	opacity: 0;
 }

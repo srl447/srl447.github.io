@@ -45,16 +45,15 @@ a:active{
 	text-decoration: underline;
 }
 
-#kermit {
+.icons {
 	position: relative;
 }
-
-#kermit img{
+.icons img{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	height: 100%;
 	width: 100%;
+	height: 100%;
 }
 #about{
 	background: white;
@@ -97,7 +96,7 @@ a:active{
 #games a{
 	width: calc(50% - 15px);
 	padding-right: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 50%;
 }
 #games img{
 	width:100%;
@@ -115,9 +114,15 @@ a:active{
 	width: 60px;
 	height: 60px;
 	padding-right: 20px;
-	filter: invert(52%) sepia(100%) hue-rotate(90deg);
+	filter: invert(100%);
 }
-
+#contact img:hover{
+	filter: invert(52%) sepia(100%) hue-rotate(90deg);
+	transition: .01s;
+}
+#Screenshots img{
+	width: 60%;
+}
 .TopUI{
 	font-size: 20px;
 }

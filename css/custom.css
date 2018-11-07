@@ -96,7 +96,7 @@ a:active{
 #games a{
 	width: calc(50% - 15px);
 	padding-right: 15px;
-	padding-bottom: 50%;
+	padding-bottom: 40%;
 }
 #games img{
 	width:100%;

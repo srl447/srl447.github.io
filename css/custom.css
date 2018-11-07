@@ -123,6 +123,18 @@ a:active{
 #Screenshots img{
 	width: 60%;
 }
+
+#main{
+	width: 80%;
+	background: white;
+}
+#main img{
+	width: 80%;
+}
+
+#Documents a{
+	color: white;
+}
 .TopUI{
 	font-size: 20px;
 }

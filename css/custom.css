@@ -18,6 +18,9 @@ nav{
 	text-align: center;
 
 }
+nav img{
+	width: 80%;
+}
 nav ul{
 	list-style: none;
 	text-align: center;

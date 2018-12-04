@@ -96,7 +96,7 @@ a:active{
 #games a{
 	width: calc(50% - 15px);
 	padding-right: 15px;
-	padding-bottom: 50%;
+	padding-bottom: 40%;
 }
 #games img{
 	width:100%;
@@ -122,6 +122,21 @@ a:active{
 }
 #Screenshots img{
 	width: 60%;
+}
+
+#main{
+	width: 80%;
+	background: white;
+}
+#main img{
+	width: 80%;
+}
+
+.w80{
+	width: 80%;
+}
+#Documents a{
+	color: white;
 }
 .TopUI{
 	font-size: 20px;
